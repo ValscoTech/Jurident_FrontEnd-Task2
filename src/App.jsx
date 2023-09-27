@@ -3,6 +3,7 @@ import './index.css'
 import About from './components/About'
 import Navbar from './components/Navbar'
 import { Routes, Route } from 'react-router-dom'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path='/' exact element={<About/>}/>
       </Routes>
+      <Footer/>
     </>
   )
 }

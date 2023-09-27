@@ -25,8 +25,8 @@ import arrow from '../assets/arrow.png';
 
 const About = () => {
   return (
-    <div className="bg-bgGray h-screen">
-      <div className="flex p-16">
+    <div className="h-auto">
+      <div className="bg-bgGray flex p-16">
         <div className="flex flex-col w-3/5">
           <div className="flex items-center">
             <div className="h-0.5 mr-5 w-14 bg-[#096A56] rounded-lg"></div>
@@ -51,7 +51,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="flex justify-center py-5">
+      <div className="flex justify-center py-5 custom-bg">
         <img src={Video} alt="video" className="w-4/5" />
       </div>
       <div className="flex p-16 mx-14">
