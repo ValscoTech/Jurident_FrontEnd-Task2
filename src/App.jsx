@@ -7,6 +7,7 @@ import Footer from './components/Footer'
 import Contact from './components/Contact'
 import Events from './components/Events'
 import Projects from './components/Projects'
+import Media from './components/Media'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path='/contact' exact element={<Contact/>}/>
         <Route path='/events' exact element={<Events/>}/>
         <Route path='/projects' exact element={<Projects/>}/>
+        <Route path='/media' exact element={<Media/>}/>
       </Routes>
       <Footer/>
     </>
