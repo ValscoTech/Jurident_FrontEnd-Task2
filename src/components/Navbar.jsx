@@ -41,7 +41,7 @@ function Navbar() {
   }
 
   return (
-    <AppBar position="static" sx={{backgroundColor: '#E7F2F7', borderBottom: 'solid #d3d3d3 1px'}} elevation={0}>
+    <AppBar position="static" sx={{backgroundColor: '#E8EBF0', borderBottom: 'solid #d3d3d3 1px'}} elevation={0}>
         <Container maxWidth="xl">
           <Toolbar disableGutters className='flex justify-between'>
             <Link to="/" className="Logo">

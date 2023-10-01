@@ -26,7 +26,7 @@ import arrow from '../assets/arrow.png';
 const About = () => {
   return (
     <div className="h-auto">
-      <div className="bg-bgGray flex p-16">
+      <div className="bg-[#E8EBF0] flex p-16">
         <div className="flex flex-col w-3/5">
           <div className="flex items-center">
             <div className="h-0.5 mr-5 w-14 bg-[#096A56] rounded-lg"></div>
@@ -148,7 +148,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="flex bg-bgGray p-20 justify-center">
+      <div className="flex bg-[#E8EBF0] p-20 justify-center">
         <div className="flex w-11/12 p-10 rounded-xl bg-white">
           <div className="flex flex-col w-1/2 px-5 justify-center">
             <h1 className="font-nunito font-bold text-lg text-txtGreen my-2">
@@ -195,7 +195,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col p-20 items-center bg-bgGray">
+      <div className="flex flex-col p-20 items-center bg-[#E8EBF0]">
         <h1 className="font-nunito font-extrabold my-4 text-4xl text-txtGreen">
           Meet our team
         </h1>
@@ -431,7 +431,7 @@ const About = () => {
         <div className="flex w-1/2 mx-10 bg-bgGray h-36 items-center justify-around rounded-lg">
           <div className="flex flex-col">
             <h1 className="font-nunito text-5xl text-gray-700">25</h1>
-            <h1 className="font-nunito text-xs font-bold text-gray-700">
+            <h1 className="font-nunito text-xs text-center font-bold text-gray-700">
               APR
             </h1>
           </div>

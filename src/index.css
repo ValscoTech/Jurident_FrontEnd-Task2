@@ -5,5 +5,5 @@
 @tailwind utilities;
 
 .custom-bg {
-    background: linear-gradient(to bottom, #E7F2F7 50%, white 50%);
+    background: linear-gradient(to bottom, #E8EBF0 50%, white 50%);
   }
