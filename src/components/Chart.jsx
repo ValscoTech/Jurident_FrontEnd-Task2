@@ -1,12 +1,12 @@
 import chart from "../assets/chart.png";
 const Chart = () => {
   return (
-    <div className="bg-black w-full h-fit text-white p-20 flex flex-wrap">
-      <div className="w-1/2 font-sans">
-        <h1 className="text-5xl">
+    <div className="bg-black w-full h-fit text-white p-8 md:p-20 flex flex-col md:flex-row flex-wrap">
+      <div className="w-full md:w-1/2 font-sans">
+        <h1 className="text-5xl my-5">
           How we spend your donations and where it goes
         </h1>
-        <p className="text-white text-opacity-50 text-lg">
+        <p className="text-white text-opacity-50 text-lg my-5">
           We understand that when you make a donation youu want to know exactly
           where your money is going and we pledge to be transparent
         </p>
@@ -52,7 +52,7 @@ const Chart = () => {
           </div>
         </div>
       </div>
-      <div className="w-1/2 flex justify-center items-center">
+      <div className="w-full md:w-1/2 flex justify-center items-center">
         <img src={chart} width={"300px"} />
       </div>
     </div>

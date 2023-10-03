@@ -15,7 +15,8 @@ export default {
         'bgGray': '#E7F2F7'
       },
       backgroundImage: {
-        'ctaBg': "url('/src/assets/ctabg.png')"
+        'ctaBg': "url('/src/assets/ctabg.png')",
+        'header-section': "url('../assets/HeaderSection.png')",
       }
     },
   },

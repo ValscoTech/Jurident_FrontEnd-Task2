@@ -11,6 +11,7 @@ import Media from './components/Media'
 import Donate from './components/Donate'
 import WhatWeDo from './components/WhatWeDo'
 import ScrollToTop from './components/ScrollToTop'
+import Home from './components/Home'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Navbar/>
       <ScrollToTop/>
       <Routes>
+        <Route path='/' exact element={<Home/>}/>
         <Route path='/about' exact element={<About/>}/>
         <Route path='/contact' exact element={<Contact/>}/>
         <Route path='/events' exact element={<Events/>}/>
