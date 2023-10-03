@@ -77,12 +77,9 @@ function Navbar() {
               sx={{
                 display: { xs: "flex", md: "none" },
                 flexGrow: 2,
-                fontFamily: "monospace",
-                fontWeight: 1000,
-                color: "inherit",
                 textDecoration: "none",
               }}
-              className="dark:text-white"
+              className="text-txtGreen text-md font-extrabold font-nunito"
             >
               Christamelon Foundation
             </Typography>
@@ -95,7 +92,7 @@ function Navbar() {
                 onClick={handleOpenNavMenu}
                 color="inherit"
               >
-                <MenuIcon sx={{margin: '5px'}} className="dark:text-white"/>
+                <MenuIcon sx={{margin: '5px'}} className="text-txtGreen"/>
               </IconButton>
               <Menu
                 id="menu-appbar"
@@ -125,28 +122,28 @@ function Navbar() {
                   </Link>
                 </MenuItem>
                 <MenuItem key={"About"} onClick={handleCloseNavMenu}>
-                  <Link to="/" className="navlink">
+                  <Link to="/about" className="navlink">
                     <Typography textAlign="center" className="navbar-menu-text">
                       About us
                     </Typography>
                   </Link>
                 </MenuItem>
                 <MenuItem key={"What we do"} onClick={handleCloseNavMenu}>
-                  <Link to="/" className="navlink">
+                  <Link to="/whatwedo" className="navlink">
                     <Typography textAlign="center" className="navbar-menu-text">
                       What We Do
                     </Typography>
                   </Link>
                 </MenuItem>
                 <MenuItem key={"Media"} onClick={handleCloseNavMenu}>
-                  <Link to="/" className="navlink">
+                  <Link to="/media" className="navlink">
                     <Typography textAlign="center" className="navbar-menu-text">
                       Media
                     </Typography>
                   </Link>
                 </MenuItem>
                 <MenuItem key={"Contact"} onClick={handleCloseNavMenu}>
-                  <Link to="/" className="navlink">
+                  <Link to="/contact" className="navlink">
                     <Typography textAlign="center" className="navbar-menu-text">
                       Contact
                     </Typography>
@@ -179,7 +176,7 @@ function Navbar() {
                   Home
                 </Button>
               </Link>
-              <Link to="/" className="navlink">
+              <Link to="/about" className="navlink">
                 <Button
                   key="About"
                   onClick={handleServicesNav}
@@ -198,7 +195,7 @@ function Navbar() {
                   About us
                 </Button>
               </Link>
-              <Link to="/" className="navlink">
+              <Link to="/whatwedo" className="navlink">
                 <Button
                   key="What we do"
                   onClick={handleContactNav}
@@ -217,7 +214,7 @@ function Navbar() {
                     What We Do
                 </Button>
               </Link>
-              <Link to="/" className="navlink">
+              <Link to="/media" className="navlink">
                 <Button
                   key="Media"
                   onClick={handleProjectsNav}
@@ -236,7 +233,7 @@ function Navbar() {
                   Media
                 </Button>
               </Link>
-              <Link to="/" className="navlink">
+              <Link to="/contact" className="navlink">
                 <Button
                   key="contact"
                   onClick={handleProjectsNav}
@@ -257,9 +254,9 @@ function Navbar() {
               </Link>
               </div>
             </Box>
-            <div className="flex mr-14">
-            <Link to='/'>
-                  <Button variant="contained" sx={{fontSize: '8pt', bgcolor: '#096A56'}}>Donate</Button>
+            <div className="hidden md:flex mr-14">
+            <Link to='/donate'>
+                  <Button variant="contained" sx={{fontSize: '8pt', bgcolor: '#096A56', display: { xs: "none", md: "flex" }}}>Donate</Button>
             </Link>
             </div>
           </Toolbar>

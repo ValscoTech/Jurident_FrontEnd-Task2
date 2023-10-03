@@ -26,8 +26,8 @@ import arrow from '../assets/arrow.png';
 const About = () => {
   return (
     <div className="h-auto">
-      <div className="bg-[#E8EBF0] flex p-16">
-        <div className="flex flex-col w-3/5">
+      <div className="bg-[#E8EBF0] flex flex-col md:flex-row p-8 md:p-16">
+        <div className="flex flex-col w-full md:w-3/5">
           <div className="flex items-center">
             <div className="h-0.5 mr-5 w-14 bg-[#096A56] rounded-lg"></div>
             <h1 className="font-nunito font-bold text-lg text-txtGreen">
@@ -38,7 +38,7 @@ const About = () => {
             We are a non-governmental organization
           </h1>
         </div>
-        <div className="w-2/5 px-10">
+        <div className="w-full md:w-2/5 md:px-10">
           <p className="font-nunito font-bold py-5 text-md text-txtGreen">
             Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc
             ut sem vitae risus tristique posuere.
@@ -54,8 +54,8 @@ const About = () => {
       <div className="flex justify-center py-5 custom-bg">
         <img src={Video} alt="video" className="w-4/5" />
       </div>
-      <div className="flex p-16 mx-14">
-        <div className="flex flex-col w-1/2 p-10 pl-16">
+      <div className="flex flex-col md:flex-row p-8 md:p-16 md:mx-14">
+        <div className="flex flex-col w-full md:w-1/2 md:p-10 md:pl-16">
           <h1 className="font-nunito font-bold text-lg text-txtGreen my-2">
             OUR MISSION
           </h1>
@@ -63,7 +63,7 @@ const About = () => {
             We make sure to provide inclusive care for children with special
             needs
           </h1>
-          <p className="font-nunito text-gray-400 py-5 text-md text-txtGreen">
+          <p className="font-nunito text-gray-400 py-5 text-md">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             varius enim in eros elementum tristique. Duis cursus, mi quis
             viverra ornare, eros dolor interdum nulla, ut commodo diam libero
@@ -71,14 +71,14 @@ const About = () => {
             imperdiet. Nunc ut sem vitae risus tristique posuere.
           </p>
         </div>
-        <div className="flex flex-col w-1/2 p-10 pr-16">
+        <div className="flex flex-col w-full md:w-1/2 md:p-10 md:pr-16">
           <h1 className="font-nunito font-bold text-lg text-txtGreen my-2">
             OUR VISION
           </h1>
           <h1 className="font-nunito font-extrabold text-xl text-txtGreen">
             Provide more inclusive care to children around the world
           </h1>
-          <p className="font-nunito text-gray-400 py-5 text-md text-txtGreen">
+          <p className="font-nunito text-gray-400 py-5 text-md">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             varius enim in eros elementum tristique. Duis cursus, mi quis
             viverra ornare, eros dolor interdum nulla, ut commodo diam libero
@@ -87,26 +87,26 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-col px-20 py-10 bg-bgGray">
+      <div className="flex flex-col px-10 md:px-20 py-10 bg-bgGray">
         <h1 className="font-nunito font-extrabold text-2xl text-txtGreen">
           OUR SUPPORTERS
         </h1>
         <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-300"></hr>
-        <div className="flex justify-around">
-          <img src={supporter1} alt="supporter" />
-          <img src={supporter2} alt="supporter" />
-          <img src={supporter3} alt="supporter" />
-          <img src={supporter4} alt="supporter" />
-          <img src={supporter5} alt="supporter" />
-          <img src={supporter6} alt="supporter" />
+        <div className="flex flex-col md:flex-row justify-around">
+          <img src={supporter1} className='my-5' alt="supporter" />
+          <img src={supporter2} className='my-5' alt="supporter" />
+          <img src={supporter3} className='my-5' alt="supporter" />
+          <img src={supporter4} className='my-5' alt="supporter" />
+          <img src={supporter5} className='my-5' alt="supporter" />
+          <img src={supporter6} className='my-5' alt="supporter" />
         </div>
       </div>
-      <div className="flex flex-col p-20">
+      <div className="flex flex-col p-8 md:p-20">
         <h1 className="font-nunito font-extrabold mt-2 mb-14 text-4xl text-txtGreen text-center">
           Awards & Recognitions
         </h1>
-        <div className="flex justify-around">
-          <div className="flex flex-col items-center">
+        <div className="flex flex-col md:flex-row justify-around">
+          <div className="flex flex-col items-center mb-8 md:mb-0">
             <img src={award1} alt="award1" className="w-[112px] h=[93px]" />
             <h1 className="font-nunito font-extrabold text-xl text-center mt-5 mb-3 text-txtGreen">
               2021
@@ -116,7 +116,7 @@ const About = () => {
             </h1>
             <p className="font-nunito text-xs">BERLIN, GERMANY</p>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center mb-8 md:mb-0">
             <img src={award2} alt="award2" className="w-[112px] h=[93px]" />
             <h1 className="font-nunito font-extrabold text-xl text-center mt-5 mb-3 text-txtGreen">
               2018
@@ -126,7 +126,7 @@ const About = () => {
             </h1>
             <p className="font-nunito text-xs">NEW YORK, USA</p>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center mb-8 md:mb-0">
             <img src={award3} alt="award3" className="w-[112px] h=[93px]" />
             <h1 className="font-nunito font-extrabold text-xl text-center mt-5 mb-3 text-txtGreen">
               2014
@@ -136,7 +136,7 @@ const About = () => {
             </h1>
             <p className="font-nunito text-xs">NEW DELHI INDIA</p>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center mb-8 md:mb-0">
             <img src={award4} alt="award4" className="w-[112px] h=[93px]" />
             <h1 className="font-nunito font-extrabold text-xl text-center mt-5 mb-3 text-txtGreen">
               2010
@@ -148,9 +148,9 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="flex bg-[#E8EBF0] p-20 justify-center">
-        <div className="flex w-11/12 p-10 rounded-xl bg-white">
-          <div className="flex flex-col w-1/2 px-5 justify-center">
+      <div className="flex bg-[#E8EBF0] p-5 md:p-20 justify-center">
+        <div className="flex flex-col-reverse md:flex-row w-11/12 p-5 md:p-10 rounded-xl bg-white">
+          <div className="flex flex-col w-full md:w-1/2 px-5 justify-center">
             <h1 className="font-nunito font-bold text-lg text-txtGreen my-2">
               OUR JOURNEY
             </h1>
@@ -195,15 +195,15 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col p-20 items-center bg-[#E8EBF0]">
+      <div className="flex flex-col p-10 md:p-20 items-center bg-[#E8EBF0]">
         <h1 className="font-nunito font-extrabold my-4 text-4xl text-txtGreen">
           Meet our team
         </h1>
-        <p className="font-nunito text-sm text-gray-400 text-center w-5/12">
+        <p className="font-nunito text-sm text-gray-400 text-center w-9/12 md:w-5/12">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           varius enim in eros elementum tristique.
         </p>
-        <div className="flex flex-wrap p-10 justify-center">
+        <div className="flex flex-wrap md:p-10 justify-center">
           <div className="mb-10">
             <img src={team1} alt="team" className="w-56 m-5 " />
             <h1 className="font-nunito text-md font-bold text-center text-txtGreen">
@@ -382,9 +382,9 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="flex px-20 pt-20 pb-0 bg-white justify-center">
-        <div className="flex flex-col items-center justify-center m-10 py-10 px-20 bg-ctaBg bg-cover w-full h-80 rounded-3xl bg-no-repeat">
-          <h1 className="font-nunito my-3 w-4/6 text-4xl text-white text-center">
+      <div className="flex p-5 md:px-20 md:pt-20 md:pb-0 bg-white justify-center">
+        <div className="flex flex-col items-center justify-center md:m-10 md:py-10 px-3 md:px-20 bg-ctaBg bg-cover w-full h-60 md:h-80 rounded-3xl bg-no-repeat">
+          <h1 className="font-nunito my-3 w-full md:w-4/6 text-xl md:text-4xl text-white text-center">
             You can contribute to provide a place for children with special
             needs!
           </h1>
@@ -404,16 +404,16 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center px-20 pt-10 bg-white">
+      <div className="flex items-center px-10 md:px-20 pt-10 bg-white">
         <h1 className="font-nunito font-extrabold text-2xl text-txtGreen">
           Our Events
         </h1>
         <div className="h-0.5 ml-10 mr-5 w-4/5 bg-[#096A56] rounded-lg"></div>
       </div>
-      <div className="flex bg-white p-20">
-        <div className="flex w-1/2 mx-10 bg-bgGray h-36 items-center justify-around rounded-lg">
+      <div className="flex bg-white flex-col md:flex-row p-10 md:p-20">
+        <div className="flex w-full md:w-1/2 md:mx-10 mb-5 md:mb-0 bg-bgGray h-36 items-center justify-around rounded-lg">
           <div className="flex flex-col">
-            <h1 className="font-nunito text-5xl text-gray-700">13</h1>
+            <h1 className="font-nunito text-3xl md:text-5xl text-gray-700">13</h1>
             <h1 className="font-nunito text-xs font-bold text-center text-gray-700">
               APR
             </h1>
@@ -422,15 +422,15 @@ const About = () => {
             <h1 className="font-nunito text-xs font-bold text-gray-700">
               NEXT EVENTS
             </h1>
-            <h1 className="font-nunito text-xl font-bold  text-gray-700">
+            <h1 className="font-nunito text-sm md:text-xl font-bold  text-gray-700">
               A day with our wonderful children
             </h1>
           </div>
           <img src={arrow} alt='arrow' className="h-10 w-10 cursor-pointer"/>
         </div>
-        <div className="flex w-1/2 mx-10 bg-bgGray h-36 items-center justify-around rounded-lg">
+        <div className="flex w-full md:w-1/2 md:mx-10 mb-5 md:mb-0 bg-bgGray h-36 items-center justify-around rounded-lg">
           <div className="flex flex-col">
-            <h1 className="font-nunito text-5xl text-gray-700">25</h1>
+            <h1 className="font-nunito text-3xl md:text-5xl text-gray-700">25</h1>
             <h1 className="font-nunito text-xs text-center font-bold text-gray-700">
               APR
             </h1>
@@ -439,7 +439,7 @@ const About = () => {
             <h1 className="font-nunito text-xs font-bold text-gray-700">
               NEXT EVENTS
             </h1>
-            <h1 className="font-nunito text-xl font-bold  text-gray-700">
+            <h1 className="font-nunito text-sm md:text-xl font-bold  text-gray-700">
             Seminar: Caring for children with autism
             </h1>
           </div>

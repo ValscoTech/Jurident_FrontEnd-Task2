@@ -4,7 +4,7 @@ const Contact = () =>{
     return(
         <>
         <section className="bg-[#E8EBF0] text-gray-600 body-font">
-        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center pl-28">
+        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center md:pl-28">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="relative pl-6">
               <span className="text-gray-900">CONTACT US</span>

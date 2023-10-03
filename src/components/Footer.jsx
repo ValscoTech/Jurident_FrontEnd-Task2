@@ -1,13 +1,13 @@
 const Footer = () => {
   return (
-    <footer className="bg-black h-72 p-16">
-      <div className="flex">
-        <div className="w-2/6">
+    <footer className="bg-black h-auto md:h-72 p-8 md:p-16">
+      <div className="flex flex-col md:flex-row">
+        <div className="w-full py-5 md:py-5 md:w-2/6">
           <h1 className="font-courgette text-xl text-[#E8EBF0]">
             Christamelon Foundation
           </h1>
         </div>
-        <div className="flex w-5/6 pl-24">
+        <div className="flex w-full md:w-5/6 py-5 md:py-5 md:pl-24">
           <div className="flex flex-col w-1/3">
             <p className="text-sm my-2 text-[#E8EBF0] font-nunito">Home</p>
             <p className="text-sm my-2 text-gray-400 font-nunito">About us</p>
@@ -30,14 +30,14 @@ const Footer = () => {
             <p className="text-sm my-2 text-gray-400 font-nunito">Linkedin</p>
           </div>
         </div>
-        <div className="w-2/6">
+        <div className="w-full py-5 md:py-0 md:w-2/6">
           <div className="flex flex-col">
             <h1 className="font-nunito font-bold text-2xl text-[#E8EBF0]">
               Subscribe to get latest updates
             </h1>
-            <div className="flex py-10">
+            <div className="flex flex-col md:flex-row py-5 md:py-10">
                 <input type="text" placeholder="Your Email" className="bg-black text-white px-5 py-2 focus:outline-0 border-gray-700 border-[1px] rounded-md"/>
-                <button className="bg-[#E8EBF0] px-5 py-2 rounded-md">Subscribe</button>
+                <button className="bg-[#E8EBF0] px-5 py-2 rounded-md my-2">Subscribe</button>
             </div>
           </div>
         </div>
