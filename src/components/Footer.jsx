@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row">
         <div className="w-full py-5 md:py-5 md:w-2/6">
           <h1 className="font-courgette text-xl text-[#E8EBF0]">
-            Christamelon Foundation
+            AMMAS ASSOCIATION
           </h1>
         </div>
         <div className="flex w-full md:w-5/6 py-5 md:py-5 md:pl-24">

@@ -64,8 +64,8 @@ function Navbar() {
                 component={Link}
                 to={"/"}
               >
-                <img src={Logo} alt='logo' className='logo'/>
-                {/* <h3 className="logo-text dark:text-white">Christamelon Foundation</h3> */}
+
+                <h3 className="logo-text text-txtGreen">AMMAS ASSOCIATION</h3>
               </Typography>
             </Link>
 
@@ -81,7 +81,7 @@ function Navbar() {
               }}
               className="text-txtGreen text-md font-extrabold font-nunito"
             >
-              Christamelon Foundation
+              AMMAS ASSOCIATION
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" }, justifyContent:'flex-end' }}>
               <IconButton

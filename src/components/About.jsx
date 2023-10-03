@@ -22,6 +22,7 @@ import facebookLogo from "../assets/facebooklogo.png";
 import twitterLogo from "../assets/twitterlogo.png";
 import linkedinLogo from "../assets/linkedinlogo.png";
 import arrow from '../assets/arrow.png';
+import {Link} from 'react-router-dom';
 
 const About = () => {
   return (
@@ -207,10 +208,10 @@ const About = () => {
           <div className="mb-10">
             <img src={team1} alt="team" className="w-56 m-5 " />
             <h1 className="font-nunito text-md font-bold text-center text-txtGreen">
-              Leonard John Davies
+              Ajay Kumar Gupta
             </h1>
             <p className="font-nunito my-2 text-xs text-center text-txtGreen">
-              Cofounder, CEO
+              Director
             </p>
             <div className="flex flex-around justify-center">
               <img
@@ -426,7 +427,9 @@ const About = () => {
               A day with our wonderful children
             </h1>
           </div>
+          <Link to='/events'>
           <img src={arrow} alt='arrow' className="h-10 w-10 cursor-pointer"/>
+          </Link>
         </div>
         <div className="flex w-full md:w-1/2 md:mx-10 mb-5 md:mb-0 bg-bgGray h-36 items-center justify-around rounded-lg">
           <div className="flex flex-col">

@@ -1,16 +1,16 @@
 const Projects = () => {
   return (
     <div className="main font-nunito ">
-      <div className="top-container my-[70px] mx-[15%] leading-7">
+      <div className="top-container my-[70px] mx-[5%] sm:mx-[15%] leading-7">
         <div className="heading flex">
           <div>
             <hr className=" bg-black w-12 h-[2px] mr-2 border-none mt-3" />
           </div>
           <div className=" font-semibold font-nunito">OUR PROJECT</div>
         </div>
-        <div className="content mx-[50px]">
+        <div className="content mx-[30px] sm:mx-[50px]">
           <div className="1stcontent">
-            <h1 className="text-5xl font-nunito font-bold w-[70%] my-[25px]">
+            <h1 className="font-nunito text-lg sm:text-2xl md:text-4xl  font-medium w-[80%] sm:w-[60%] my-[25px]">
               Mission Smile 1k: Outdoor charity outreach
             </h1>
             <p className="font-nunito">
@@ -53,10 +53,10 @@ const Projects = () => {
               optio deleniti quasi sed, placeat accusamus praesentium. Et illo,
               ex
             </p>
-            <div className="img bg-[url('content2.png')] bg-cover bg-no-repeat rounded-3xl h-[300px] mt-[40px]"></div>
+            <div className="img bg-[url('content2.png')] bg-cover bg-no-repeat rounded-3xl h-[250px] md:h-[300px] mt-[40px]"></div>
           </div>
           <div className="2ndcontent">
-            <h1 className="text-4xl font-nunito font-bold mt-[40px] mb-[20px]">
+            <h1 className="font-nunito text-lg sm:text-xl md:text-3xl  font-medium mt-[40px] mb-[20px]">
               Some Cool Heading
             </h1>
             <p className="font-nunito">
@@ -75,14 +75,14 @@ const Projects = () => {
             </p>
             <br />
             <ul className=" mx-7">
-              <li className=" list-disc font-semibold font-nunito">
+              <li className=" list-disc font-nunito font-semibold">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </li>
-              <li className=" list-disc font-semibold font-nunito">
+              <li className=" list-disc font-nunito font-semibold">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Provident.
               </li>
-              <li className=" list-disc font-semibold font-nunito">
+              <li className=" list-disc font-nunito font-semibold">
                 Lorem ipsum dolor sit amet consectetur.
               </li>
             </ul>
@@ -97,7 +97,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="bg-[#E8EBF0] border-y-black border-[1px] pt-[5%] px-44 grid grid-cols-2 grid-rows-2 gap-y-[10px] gap-x-[10px] h-[400px]">
+      <div className="bg-[#E8EBF0] border-y-black border-[1px] pt-[5%] pb-[30px] px-[30px] sm:px-[20%] grid grid-cols-1 lg:grid-cols-2 grid-rows-4 lg:grid-rows-2 gap-y-[10px] gap-x-[10px] md:h-[600px] lg:h-[400px]">
         <div className="achievements1 w-[95%] flex">
           <div className="logo mr-4">
             <svg
@@ -119,10 +119,10 @@ const Projects = () => {
             </svg>
           </div>
           <div className="content">
-            <h3 className=" text-2xl  font-nunito font-medium mb-3">
+            <h3 className="font-nunito text-lg sm:text-xl md:text-2xl font-medium mb-3">
               20+ orphange visit in 2 months
             </h3>
-            <p className=" text-sm font-nunito">
+            <p className="font-nunito text-sm">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
               molestias, voluptas voluptatum sequi minima doloribus suscipit.
             </p>
@@ -144,18 +144,18 @@ const Projects = () => {
                 fill="black"
               />
               <path
-                fillRule="evenodd"
-                clipRule="evenodd"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
                 d="M6.05071 2.6665H10.5653C12.435 2.6665 13.95 4.19431 13.95 6.07979V10.6325C13.95 12.518 12.435 14.0458 10.5653 14.0458H6.05071C4.18102 14.0458 2.66602 12.518 2.66602 10.6325V6.07979C2.66602 4.19431 4.18102 2.6665 6.05071 2.6665ZM6.05071 17.9538H10.5653C12.435 17.9538 13.95 19.4816 13.95 21.3671V25.9198C13.95 27.804 12.435 29.3331 10.5653 29.3331H6.05071C4.18102 29.3331 2.66602 27.804 2.66602 25.9198V21.3671C2.66602 19.4816 4.18102 17.9538 6.05071 17.9538ZM25.948 17.9538H21.4334C19.5637 17.9538 18.0487 19.4816 18.0487 21.3671V25.9198C18.0487 27.804 19.5637 29.3331 21.4334 29.3331H25.948C27.8177 29.3331 29.3327 27.804 29.3327 25.9198V21.3671C29.3327 19.4816 27.8177 17.9538 25.948 17.9538Z"
                 fill="black"
               />
             </svg>
           </div>
           <div className="content">
-            <h3 className=" text-2xl font-medium mb-3 font-nunito">
+            <h3 className="font-nunito text-lg sm:text-xl md:text-2xl font-medium mb-3">
               230 People Have donated
             </h3>
-            <p className=" text-sm font-nunito">
+            <p className="font-nunito text-sm">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
               molestias, voluptas voluptatum sequi minima doloribus suscipit.
             </p>
@@ -177,16 +177,18 @@ const Projects = () => {
                 fill="black"
               />
               <path
-                fillRule="evenodd"
-                clipRule="evenodd"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
                 d="M14.9921 11.5666C14.9921 13.3933 13.5054 14.88 11.6788 14.88C9.85076 14.88 8.36543 13.3933 8.36543 11.5666C8.36543 9.73995 9.85076 8.25195 11.6788 8.25195C13.5054 8.25195 14.9921 9.73995 14.9921 11.5666ZM25.866 18.7834C26.1767 19.0847 26.3994 19.4287 26.546 19.7954C26.99 20.9047 26.7594 22.2381 26.2847 23.3367C25.722 24.6447 24.6447 25.6327 23.2874 26.0647C22.6847 26.2581 22.0527 26.3407 21.422 26.3407H10.2474C9.13536 26.3407 8.15136 26.0821 7.34469 25.5967C6.83936 25.2927 6.75003 24.5927 7.12469 24.1367C7.75136 23.3767 8.37003 22.6141 8.99403 21.8447C10.1834 20.3727 10.9847 19.9461 11.8754 20.3207C12.2367 20.4754 12.5994 20.7087 12.9727 20.9541C13.9674 21.6127 15.35 22.5167 17.1714 21.5354C18.4163 20.8546 19.139 19.6898 19.768 18.6758L19.7807 18.6554C19.823 18.5875 19.865 18.5197 19.9068 18.4521C20.1207 18.1065 20.3314 17.7661 20.57 17.4527C20.866 17.0647 21.9647 15.8514 23.3847 16.7154C24.29 17.2594 25.0514 17.9954 25.866 18.7834Z"
                 fill="black"
               />
             </svg>
           </div>
           <div className="content">
-            <h3 className=" text-2xl font-medium mb-3 font-nunito">30+ people joined</h3>
-            <p className=" text-sm font-nunito">
+            <h3 className="font-nunito text-lg sm:text-xl md:text-2xl font-medium mb-3">
+              30+ people joined
+            </h3>
+            <p className="font-nunito text-sm">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
               molestias, voluptas voluptatum sequi minima doloribus suscipit.
             </p>
@@ -214,10 +216,10 @@ const Projects = () => {
             </svg>
           </div>
           <div className="content">
-            <h3 className=" text-2xl font-medium mb-3 font-nunito">
+            <h3 className="font-nunito text-lg sm:text-xl md:text-2xl font-medium mb-3">
               1.2m Raised for this initiate
             </h3>
-            <p className=" text-sm font-nunito">
+            <p className="font-nunito text-sm">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
               molestias, voluptas voluptatum sequi minima doloribus suscipit.
             </p>
@@ -225,18 +227,18 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="lowest-container mt-[50px] mx-[100px]">
+      <div className="lowest-container mt-[50px] mx-[30px] sm:mx-[50px] md:mx-[100px] h-auto">
         <div className="heading flex my-[20px]">
           <div>
             <hr className=" bg-black w-12 h-[2px] mr-2 border-none mt-3" />
           </div>
-          <div className=" font-semibold font-nunito">MORE PROJECT</div>
+          <div className="font-nunito font-semibold">MORE PROJECT</div>
         </div>
 
-        <div className="grid grid-cols-3 gap-x-6 h-[300px] text-white">
-          <div className="px-10 py-8 bg-[url('project1.png')] bg-no-repeat bg-cover rounded-3xl flex flex-col">
+        <div className=" grid grid-cols-1 md:grid-cols-3 mb-8 gap-y-3 gap-x-6 h-[900px] md:h-[500px] lg:h-[350px] text-white">
+          <div className=" px-10 py-8 bg-[url('project1.png')] bg-no-repeat bg-cover rounded-3xl flex flex-col">
             <div className="text">
-              <h3 className="text-2xl text font-medium w-[70%] mb-6 font-nunito">
+              <h3 className="font-nunito text-lg sm:text-xl md:text-2xl text font-medium w-[70%] mb-6">
                 Mission 1k smile: Outdoor charity
               </h3>
               <p className="font-nunito">
@@ -245,26 +247,32 @@ const Projects = () => {
               </p>
             </div>
             <div className=" self-start mt-auto text-black font-medium btn bg-white flex justify-center h-[40px] text-center rounded w-[100px]">
-              <button className="learn-more">Learn more</button>
+              <button className="font-nunito text-xs md:text-sm lg:text-base learn-more">
+                Learn more
+              </button>
             </div>
           </div>
 
           <div className="project px-10 py-8 bg-[url('project2.png')] bg-cover bg-no-repeat rounded-3xl flex flex-col">
             <div className="text">
-              <h3 className=" text-2xl font-medium mb-6">Weekly excursions</h3>
+              <h3 className="font-nunito text-lg sm:text-xl md:text-2xl font-medium mb-6">
+                Weekly excursions
+              </h3>
               <p className="font-nunito">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 Reiciendis est soluta eum? Veniam, ex et!
               </p>
             </div>
             <div className="  self-start mt-auto  text-black font-medium btn bg-white flex justify-center h-[40px] text-center rounded w-[100px]">
-              <button className="learn-more font-nunito">Learn more</button>
+              <button className="font-nunito text-xs md:text-sm lg:text-base learn-more">
+                Learn more
+              </button>
             </div>
           </div>
 
           <div className="project px-10 py-8 bg-[url('project3.png')] bg-cover bg-no-repeat rounded-3xl flex flex-col">
             <div className="text">
-              <h3 className=" text-2xl font-medium mb-6 w-[70%] font-nunito">
+              <h3 className="font-nunito text-lg sm:text-xl md:text-2xl font-medium mb-6 w-[70%]">
                 Monthly public awareness
               </h3>
               <p className="font-nunito">
@@ -273,26 +281,32 @@ const Projects = () => {
               </p>
             </div>
             <div className="  self-start mt-auto  text-black  font-medium btn bg-white flex justify-center h-[40px] text-center rounded w-[100px]">
-              <button className="learn-more font-nunito">Learn more</button>
+              <button className="font-nunito text-xs md:text-sm lg:text-base learn-more">
+                Learn more
+              </button>
             </div>
           </div>
         </div>
-
-        <div className="contribute bg-[url('contribute.png')] bg-cover bg-no-repeat my-[50px] h-[300px] flex flex-col justify-center text-center rounded-3xl">
-          <div className="text my-4 px-[20%]">
-            <h1 className=" text-4xl font-medium text-white font-nunito">
-              You can contribute to provide a place for children with special
-              needs!
-            </h1>
-          </div>
-
-          <div className="btns flex justify-center my-4">
-            <div className=" font-medium volunteer mx-3 bg-[#096A56] flex justify-center text-white h-[40px] text-center rounded w-40">
-              <button>Join as a voluteer</button>
-            </div>
-            <div className=" font-medium learn-more mx-3 bg-white flex justify-center h-[40px] text-center rounded w-[100px]">
-              <button>Donate</button>
-            </div>
+      </div>
+      <div className="flex p-5 md:px-20 md:pt-10 md:pb-0 bg-white justify-center">
+        <div className="flex flex-col items-center justify-center md:m-10 md:py-10 px-3 md:px-20 bg-ctaBg bg-cover w-full h-60 md:h-80 rounded-3xl bg-no-repeat">
+          <h1 className="font-nunito my-3 w-full md:w-4/6 text-xl md:text-4xl text-white text-center">
+            You can contribute to provide a place for children with special
+            needs!
+          </h1>
+          <div className="flex py-6">
+            <button
+              type="button"
+              className="font-nunito focus:outline-none text-white bg-[#096A56] font-medium rounded-md text-sm px-5 py-2.5 mr-2 mb-2 "
+            >
+              Join as a volunteer
+            </button>
+            <button
+              type="button"
+              className="font-nunito focus:outline-none bg-bgGray text-[#096A56] font-medium rounded-md text-sm px-5 py-2.5 mr-2 mb-2 "
+            >
+              Donate
+            </button>
           </div>
         </div>
       </div>

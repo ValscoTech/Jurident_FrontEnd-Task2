@@ -10,12 +10,14 @@ import Projects from './components/Projects'
 import Media from './components/Media'
 import Donate from './components/Donate'
 import WhatWeDo from './components/WhatWeDo'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
 
   return (
     <>
       <Navbar/>
+      <ScrollToTop/>
       <Routes>
         <Route path='/about' exact element={<About/>}/>
         <Route path='/contact' exact element={<Contact/>}/>

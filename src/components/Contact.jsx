@@ -25,13 +25,13 @@ const Contact = () =>{
                 
                 <div className="flex-grow sm:pl-8">
                   <h2 className="title-font font-medium text-lg text-gray-900">Let's talk!</h2>
-                  <h3 className="text-gray-500 mb-3">+231 0903433543 hello@largerthani.com</h3>
+                  <h3 className="text-gray-500 mb-3">+91 1234567891 testing1234@gmail.com</h3>
     
                   <h2 className="title-font font-medium text-lg text-gray-900 pt-5">Headoffice</h2>
-                  <h3 className="text-gray-500 mb-3">B Brewery drive, Lagos , Nigeria</h3>
+                  <h3 className="text-gray-500 mb-3">No. 5/1, Durga Mata Mandir Road, Moti Nagar 110015 New Delhi, India</h3>
     
-                  <h2 className="title-font font-medium text-lg text-gray-900 pt-5">Branch Office</h2>
-                  <h3 className="text-gray-500 mb-3">Opp Opoplp road about , Yenagos, Bayelsa , Nigeria</h3>
+                  {/* <h2 className="title-font font-medium text-lg text-gray-900 pt-5">Branch Office</h2>
+                  <h3 className="text-gray-500 mb-3">Opp Opoplp road about , Yenagos, Bayelsa , Nigeria</h3> */}
                   
                   <span className="inline-flex">
                     <a className="text-gray-500 pt-4">
@@ -60,9 +60,6 @@ const Contact = () =>{
 
     <section className="text-gray-600 body-font relative">
         <div className="container px-5 py-11 mx-auto">
-          <div className="flex flex-col text-center w-full mb-12">
-            
-          </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-1/2">
