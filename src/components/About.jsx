@@ -21,8 +21,8 @@ import team8 from "../assets/team8.png";
 import facebookLogo from "../assets/facebooklogo.png";
 import twitterLogo from "../assets/twitterlogo.png";
 import linkedinLogo from "../assets/linkedinlogo.png";
-import arrow from '../assets/arrow.png';
-import {Link} from 'react-router-dom';
+import arrow from "../assets/arrow.png";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -41,14 +41,17 @@ const About = () => {
         </div>
         <div className="w-full md:w-2/5 md:px-10">
           <p className="font-nunito font-bold py-5 text-md text-txtGreen">
-            Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc
-            ut sem vitae risus tristique posuere.
+            AMMAS Association for Education & Social Welfare was incorporated on
+            24th May 2001.
           </p>
           <p className="font-nunito font-thin text-sm">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique. Duis cursus, mi quis
-            viverra ornare, eros dolor interdum nulla, ut commodo diam libero
-            vitae erat. Suspendisse varius enim elementum tristique.
+            Founded by Ajay Kumar Gupta and Savitri Gupta, who happen to be
+            husband and wife, decided to take a step-forwards towards
+            transforming lives of those in need and ais them achieve a better
+            life. Accordingly, a company under Section 25 of the Companies Act
+            1956 was incorporated as a non-government, unlisted public company,
+            having its registered office situated at E-1/1326 Mansarovar Park,
+            Shahdara, Delhi.
           </p>
         </div>
       </div>
@@ -61,15 +64,16 @@ const About = () => {
             OUR MISSION
           </h1>
           <h1 className="font-nunito font-extrabold text-xl text-txtGreen">
-            We make sure to provide inclusive care for children with special
-            needs
+            We make sure to provide the youth of the nation a safe, nurturing,
+            and inclusive environment.
           </h1>
           <p className="font-nunito text-gray-400 py-5 text-md">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique. Duis cursus, mi quis
-            viverra ornare, eros dolor interdum nulla, ut commodo diam libero
-            vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem
-            imperdiet. Nunc ut sem vitae risus tristique posuere.
+            Through innovative initiatives that prioritise awareness, education,
+            and upliftment of the people who are less privileged, the
+            Association and its members aim to provide the youth of the nation a
+            safe, nurturing, and inclusive environment which enables them to
+            become confident contributors to their communities and agents of
+            positive change.
           </p>
         </div>
         <div className="flex flex-col w-full md:w-1/2 md:p-10 md:pr-16">
@@ -77,14 +81,16 @@ const About = () => {
             OUR VISION
           </h1>
           <h1 className="font-nunito font-extrabold text-xl text-txtGreen">
-            Provide more inclusive care to children around the world
+            Empowering Lives and Building a Better Future
           </h1>
           <p className="font-nunito text-gray-400 py-5 text-md">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            varius enim in eros elementum tristique. Duis cursus, mi quis
-            viverra ornare, eros dolor interdum nulla, ut commodo diam libero
-            vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem
-            imperdiet. Nunc ut sem vitae risus tristique posuere.
+            AMMAS Association for Education & Social Welfare envisions a world
+            where every individual, regardless of their background, has the
+            opportunity to lead a better life. This organization is committed to
+            transforming lives, providing access to education, and empowering
+            the less privileged. They aim to nurture a society where youth can
+            thrive, become confident contributors to their communities, and
+            drive positive change.
           </p>
         </div>
       </div>
@@ -94,12 +100,12 @@ const About = () => {
         </h1>
         <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-300"></hr>
         <div className="flex flex-col md:flex-row justify-around">
-          <img src={supporter1} className='my-5' alt="supporter" />
-          <img src={supporter2} className='my-5' alt="supporter" />
-          <img src={supporter3} className='my-5' alt="supporter" />
-          <img src={supporter4} className='my-5' alt="supporter" />
-          <img src={supporter5} className='my-5' alt="supporter" />
-          <img src={supporter6} className='my-5' alt="supporter" />
+          <img src={supporter1} className="my-5" alt="supporter" />
+          <img src={supporter2} className="my-5" alt="supporter" />
+          <img src={supporter3} className="my-5" alt="supporter" />
+          <img src={supporter4} className="my-5" alt="supporter" />
+          <img src={supporter5} className="my-5" alt="supporter" />
+          <img src={supporter6} className="my-5" alt="supporter" />
         </div>
       </div>
       <div className="flex flex-col p-8 md:p-20">
@@ -414,7 +420,9 @@ const About = () => {
       <div className="flex bg-white flex-col md:flex-row p-10 md:p-20">
         <div className="flex w-full md:w-1/2 md:mx-10 mb-5 md:mb-0 bg-bgGray h-36 items-center justify-around rounded-lg">
           <div className="flex flex-col">
-            <h1 className="font-nunito text-3xl md:text-5xl text-gray-700">13</h1>
+            <h1 className="font-nunito text-3xl md:text-5xl text-gray-700">
+              13
+            </h1>
             <h1 className="font-nunito text-xs font-bold text-center text-gray-700">
               APR
             </h1>
@@ -427,13 +435,15 @@ const About = () => {
               A day with our wonderful children
             </h1>
           </div>
-          <Link to='/events'>
-          <img src={arrow} alt='arrow' className="h-10 w-10 cursor-pointer"/>
+          <Link to="/events">
+            <img src={arrow} alt="arrow" className="h-10 w-10 cursor-pointer" />
           </Link>
         </div>
         <div className="flex w-full md:w-1/2 md:mx-10 mb-5 md:mb-0 bg-bgGray h-36 items-center justify-around rounded-lg">
           <div className="flex flex-col">
-            <h1 className="font-nunito text-3xl md:text-5xl text-gray-700">25</h1>
+            <h1 className="font-nunito text-3xl md:text-5xl text-gray-700">
+              25
+            </h1>
             <h1 className="font-nunito text-xs text-center font-bold text-gray-700">
               APR
             </h1>
@@ -443,10 +453,10 @@ const About = () => {
               NEXT EVENTS
             </h1>
             <h1 className="font-nunito text-sm md:text-xl font-bold  text-gray-700">
-            Seminar: Caring for children with autism
+              Seminar: Caring for children with autism
             </h1>
           </div>
-          <img src={arrow} alt='arrow' className="h-10 w-10 cursor-pointer"/>
+          <img src={arrow} alt="arrow" className="h-10 w-10 cursor-pointer" />
         </div>
       </div>
     </div>

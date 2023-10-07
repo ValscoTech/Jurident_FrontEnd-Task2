@@ -14,8 +14,8 @@ import icon1 from "../assets/Icon1.svg";
 import icon2 from "../assets/Icon2.svg";
 import icon3 from "../assets/Icon3.svg";
 import servicesImg from "../assets/services-img.png";
-import arrow from '../assets/arrow.png';
-import {Link} from 'react-router-dom';
+import arrow from "../assets/arrow.png";
+import { Link } from "react-router-dom";
 import Chart from "./Chart";
 
 const Home = () => {
@@ -29,20 +29,21 @@ const Home = () => {
         <div className="header">
           <div>
             <h1>
-              Inclusive care for girls with special needs in all of Zimbabwe
+              Together, we strive to work towards a sustainable and equitable
+              future for all.
             </h1>
           </div>
 
           <div className="part">
             <div>
-              <Link to='/whatwedo'>
-              <button> What we do </button>
+              <Link to="/whatwedo">
+                <button> What we do </button>
               </Link>
             </div>
-            <div className="video">
+            {/* <div className="video">
               <img src={playIcon} />
               <div className="text-white">Play Video</div>
-            </div>
+            </div> */}
           </div>
           <div className="part2">
             <p>230 children under our care</p>
@@ -63,23 +64,25 @@ const Home = () => {
 
           <div className="part4">
             <h1>
-              We provide empowerment, <br />
-              support and care to the girl child
+              We aim to provide the youth of the nation a safe, nurturing, and
+              inclusive environment
             </h1>
             <p>
-              It is a foundation to support and care for the girl child also
-              advocating for laws that are fair; they should be made to enforce
-              respect and protection for girls.
-            </p>
-            <p>
-              We work to prevent social ills against girls - e.g., prostitution,
-              child abuse, rape, early marriage, drug addiction, and all forms
-              of discrimination.
+              Through innovative initiatives that prioritise awareness,
+              education, and upliftment of the people who are less privileged,
+              the Association and its members aim to provide the youth of the
+              nation a safe, nurturing, and inclusive environment which enables
+              them to become confident contributors to their communities and
+              agents of positive change.
             </p>
           </div>
-          <div className="btn-m2">
-            <button className="btn text-white my-5">Learn more</button>
-          </div>
+          <Link to="/about">
+            <div className="btn-m2 ml-8 mt-5">
+              <button className="btn focus:outline-none text-white bg-[#096A56] font-medium rounded-md text-sm px-5 py-2.5 mr-2 mb-2 ">
+                Learn more
+              </button>
+            </div>
+          </Link>
         </div>
         <div>
           <img className="bg" src={BG} alt="" />
@@ -175,11 +178,11 @@ const Home = () => {
       <h1 className="headthree text-xl font-semibold text-[#22495F] px-10 md:px-0 md:ml-24 mb-8 md:text-4xl -ml:24">
         We are all about creating a place where girls can thrive
       </h1>
-      <div className="bg-bgGray grid grid-cols-1 md:grid-cols-3 md:h-[300px] md:mr-20 md:mx-20 mx-5 my-10 gap-6 h-auto text-white">
-        <div className="px-4 py-4 md:py-5 bg-[url('./project1.png')] bg-no-repeat bg-center bg-cover rounded-3xl flex flex-col">
+      <div className=" grid grid-cols-1 md:grid-cols-3 md:h-[300px] md:mr-20 md:mx-20 mx-5 my-10 gap-6 h-auto text-white">
+        <div className="px-4 py-4 md:py-8 bg-[url('./project1.png')] bg-no-repeat bg-center bg-cover rounded-3xl flex flex-col">
           <div className="text">
             <h3 className="text-2xl font-medium mb-4 md:mb-6 font-nunito">
-              Mission 1k smile: Outdoor charity
+              Green India
             </h3>
             <p className="font-nunito">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -193,9 +196,7 @@ const Home = () => {
 
         <div className="px-4 py-4 md:py-8 bg-[url('/project2.png')] bg-no-repeat bg-center bg-cover rounded-3xl flex flex-col">
           <div className="text">
-            <h3 className="text-2xl font-medium mb-4 md:mb-6">
-              Weekly excursions
-            </h3>
+            <h3 className="text-2xl font-medium mb-4 md:mb-6 font-nunito">Happy School</h3>
             <p className="font-nunito">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Reiciendis est soluta eum? Veniam, ex et!
@@ -209,7 +210,7 @@ const Home = () => {
         <div className="px-4 py-4 md:py-8 bg-[url('/project3.png')] bg-no-repeat bg-center bg-cover rounded-3xl flex flex-col">
           <div className="text">
             <h3 className="text-2xl font-medium mb-4 md:mb-6 font-nunito">
-              Monthly public awareness
+              Legal Aid Cell
             </h3>
             <p className="font-nunito">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -221,7 +222,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <Chart/>
+      <Chart />
       <div className="flex items-center px-10 md:px-20 pt-10 bg-white">
         <h1 className="font-nunito font-extrabold text-2xl text-txtGreen">
           Our Events
