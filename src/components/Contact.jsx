@@ -25,10 +25,13 @@ const Contact = () =>{
                 
                 <div className="flex-grow sm:pl-8">
                   <h2 className="title-font font-medium text-lg text-gray-900">Let's talk!</h2>
-                  <h3 className="text-gray-500 mb-3">+91 1234567891 testing1234@gmail.com</h3>
+                  <h3 className="text-gray-500">Ajay Kumar Gupta</h3>
+                  <h3 className="text-gray-500 mb-3">+91 9910311387</h3>
+                  <h3 className="text-gray-500">Ayush Mangal Gupta</h3>
+                  <h3 className="text-gray-500 mb-3">+91 8802728269</h3>
     
                   <h2 className="title-font font-medium text-lg text-gray-900 pt-5">Headoffice</h2>
-                  <h3 className="text-gray-500 mb-3">No. 5/1, Durga Mata Mandir Road, Moti Nagar 110015 New Delhi, India</h3>
+                  <h3 className="text-gray-500 mb-3">E-1/1326, Mansarovar Park, Shahdara, Delhi</h3>
     
                   {/* <h2 className="title-font font-medium text-lg text-gray-900 pt-5">Branch Office</h2>
                   <h3 className="text-gray-500 mb-3">Opp Opoplp road about , Yenagos, Bayelsa , Nigeria</h3> */}

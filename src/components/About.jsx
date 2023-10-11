@@ -210,11 +210,60 @@ const About = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           varius enim in eros elementum tristique.
         </p>
+        <div className="w-full md:p-10">
+          <h1 className="font-nunito font-extrabold md:mx-14 text-3xl text-txtGreen">
+            Directors
+          </h1>
+        </div>
         <div className="flex flex-wrap md:p-10 justify-center">
           <div className="mb-10">
             <img src={team1} alt="team" className="w-56 m-5 " />
             <h1 className="font-nunito text-md font-bold text-center text-txtGreen">
               Ajay Kumar Gupta
+            </h1>
+            <p className="font-nunito my-2 text-xs text-center text-txtGreen">
+              Founder & Director
+            </p>
+            <div className="flex flex-around justify-center">
+              <img
+                src={facebookLogo}
+                alt="facebook"
+                className="w-4 mx-3 my-1"
+              />
+              <img src={twitterLogo} alt="twitter" className="w-4 mx-3 my-1" />
+              <img
+                src={linkedinLogo}
+                alt="linkedin"
+                className="w-4 mx-3 my-1"
+              />
+            </div>
+          </div>
+          <div className="mb-10">
+            <img src={team1} alt="team" className="w-56 m-5 " />
+            <h1 className="font-nunito text-md font-bold text-center text-txtGreen">
+              Savitri Gupta
+            </h1>
+            <p className="font-nunito my-2 text-xs text-center text-txtGreen">
+              Founder & Director
+            </p>
+            <div className="flex flex-around justify-center">
+              <img
+                src={facebookLogo}
+                alt="facebook"
+                className="w-4 mx-3 my-1"
+              />
+              <img src={twitterLogo} alt="twitter" className="w-4 mx-3 my-1" />
+              <img
+                src={linkedinLogo}
+                alt="linkedin"
+                className="w-4 mx-3 my-1"
+              />
+            </div>
+          </div>
+          <div className="mb-10">
+            <img src={team1} alt="team" className="w-56 m-5 " />
+            <h1 className="font-nunito text-md font-bold text-center text-txtGreen">
+              Ashutosh Gupta
             </h1>
             <p className="font-nunito my-2 text-xs text-center text-txtGreen">
               Director
@@ -234,12 +283,12 @@ const About = () => {
             </div>
           </div>
           <div className="mb-10">
-            <img src={team2} alt="team" className="w-56 m-5 " />
+            <img src={team1} alt="team" className="w-56 m-5 " />
             <h1 className="font-nunito text-md font-bold text-center text-txtGreen">
-              Francis Weber
+              Akshayata Gupta
             </h1>
             <p className="font-nunito my-2 text-xs text-center text-txtGreen">
-              Vice Chairman
+              Director
             </p>
             <div className="flex flex-around justify-center">
               <img
@@ -256,12 +305,12 @@ const About = () => {
             </div>
           </div>
           <div className="mb-10">
-            <img src={team3} alt="team" className="w-56 m-5 " />
+            <img src={team1} alt="team" className="w-56 m-5 " />
             <h1 className="font-nunito text-md font-bold text-center text-txtGreen">
-              Kyla Obrien
+              Ayush Mangal Gupta
             </h1>
             <p className="font-nunito my-2 text-xs text-center text-txtGreen">
-              Head of Authority
+              Director
             </p>
             <div className="flex flex-around justify-center">
               <img
@@ -277,15 +326,19 @@ const About = () => {
               />
             </div>
           </div>
+        </div>
+        <div className="w-full md:p-10">
+          <h1 className="font-nunito font-extrabold md:mx-14 text-3xl text-txtGreen">
+            Legal Team
+          </h1>
+        </div>
+        <div className="flex flex-wrap md:p-10 justify-center">
           <div className="mb-10">
-            <img src={team4} alt="team" className="w-56 m-5 " />
+            <img src={team1} alt="team" className="w-56 m-5 " />
             <h1 className="font-nunito text-md font-bold text-center text-txtGreen">
-              Adrian Dixon
+              Ayush Mangal Gupta
             </h1>
-            <p className="font-nunito my-2 text-xs text-center text-txtGreen">
-              Support Executive
-            </p>
-            <div className="flex flex-around justify-center">
+            <div className="flex flex-around justify-center pt-3">
               <img
                 src={facebookLogo}
                 alt="facebook"
@@ -300,14 +353,11 @@ const About = () => {
             </div>
           </div>
           <div className="mb-10">
-            <img src={team5} alt="team" className="w-56 m-5 " />
+            <img src={team1} alt="team" className="w-56 m-5 " />
             <h1 className="font-nunito text-md font-bold text-center text-txtGreen">
-              Freddy Busby
+              Dipankar
             </h1>
-            <p className="font-nunito my-2 text-xs text-center text-txtGreen">
-              Project Manager
-            </p>
-            <div className="flex flex-around justify-center">
+            <div className="flex flex-around justify-center pt-3">
               <img
                 src={facebookLogo}
                 alt="facebook"
@@ -322,14 +372,11 @@ const About = () => {
             </div>
           </div>
           <div className="mb-10">
-            <img src={team6} alt="team" className="w-56 m-5" />
+            <img src={team1} alt="team" className="w-56 m-5 " />
             <h1 className="font-nunito text-md font-bold text-center text-txtGreen">
-              Dale Banks
+              TVN Sai Vineeth
             </h1>
-            <p className="font-nunito my-2 text-xs text-center text-txtGreen">
-              Accountant, Finance
-            </p>
-            <div className="flex flex-around justify-center">
+            <div className="flex flex-around justify-center pt-3">
               <img
                 src={facebookLogo}
                 alt="facebook"
@@ -344,14 +391,11 @@ const About = () => {
             </div>
           </div>
           <div className="mb-10">
-            <img src={team7} alt="team" className="w-56 m-5 " />
+            <img src={team1} alt="team" className="w-56 m-5 " />
             <h1 className="font-nunito text-md font-bold text-center text-txtGreen">
-              Miriam Middleton
+              Trishala Arora
             </h1>
-            <p className="font-nunito my-2 text-xs text-center text-txtGreen">
-              Cofounder, CEO
-            </p>
-            <div className="flex flex-around justify-center">
+            <div className="flex flex-around justify-center pt-3">
               <img
                 src={facebookLogo}
                 alt="facebook"
@@ -366,14 +410,203 @@ const About = () => {
             </div>
           </div>
           <div className="mb-10">
-            <img src={team8} alt="team" className="w-56 m-5 " />
+            <img src={team1} alt="team" className="w-56 m-5 " />
             <h1 className="font-nunito text-md font-bold text-center text-txtGreen">
-              Ellen Walton
+              Niharika Behl
             </h1>
-            <p className="font-nunito my-2 text-xs text-center text-txtGreen">
-              Vice Chairman
-            </p>
-            <div className="flex flex-around justify-center">
+            <div className="flex flex-around justify-center pt-3">
+              <img
+                src={facebookLogo}
+                alt="facebook"
+                className="w-4 mx-3 my-1"
+              />
+              <img src={twitterLogo} alt="twitter" className="w-4 mx-3 my-1" />
+              <img
+                src={linkedinLogo}
+                alt="linkedin"
+                className="w-4 mx-3 my-1"
+              />
+            </div>
+          </div>
+          <div className="mb-10">
+            <img src={team1} alt="team" className="w-56 m-5 " />
+            <h1 className="font-nunito text-md font-bold text-center text-txtGreen">
+              Aditya Pandey
+            </h1>
+            <div className="flex flex-around justify-center pt-3">
+              <img
+                src={facebookLogo}
+                alt="facebook"
+                className="w-4 mx-3 my-1"
+              />
+              <img src={twitterLogo} alt="twitter" className="w-4 mx-3 my-1" />
+              <img
+                src={linkedinLogo}
+                alt="linkedin"
+                className="w-4 mx-3 my-1"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="w-full md:p-10">
+          <h1 className="font-nunito font-extrabold md:mx-14 text-3xl text-txtGreen">
+            Environment & Other Activities
+          </h1>
+        </div>
+        <div className="flex flex-wrap md:p-10 justify-center">
+          <div className="mb-10">
+            <img src={team1} alt="team" className="w-56 m-5 " />
+            <h1 className="font-nunito text-md font-bold text-center text-txtGreen">
+              Ayush Kumar Gupta
+            </h1>
+            <div className="flex flex-around justify-center pt-3">
+              <img
+                src={facebookLogo}
+                alt="facebook"
+                className="w-4 mx-3 my-1"
+              />
+              <img src={twitterLogo} alt="twitter" className="w-4 mx-3 my-1" />
+              <img
+                src={linkedinLogo}
+                alt="linkedin"
+                className="w-4 mx-3 my-1"
+              />
+            </div>
+          </div>
+          <div className="mb-10">
+            <img src={team1} alt="team" className="w-56 m-5 " />
+            <h1 className="font-nunito text-md font-bold text-center text-txtGreen">
+              Ashutosh Gupta
+            </h1>
+            <div className="flex flex-around justify-center pt-3">
+              <img
+                src={facebookLogo}
+                alt="facebook"
+                className="w-4 mx-3 my-1"
+              />
+              <img src={twitterLogo} alt="twitter" className="w-4 mx-3 my-1" />
+              <img
+                src={linkedinLogo}
+                alt="linkedin"
+                className="w-4 mx-3 my-1"
+              />
+            </div>
+          </div>
+          <div className="mb-10">
+            <img src={team1} alt="team" className="w-56 m-5 " />
+            <h1 className="font-nunito text-md font-bold text-center text-txtGreen">
+              Shalini Gupta
+            </h1>
+            <div className="flex flex-around justify-center pt-3">
+              <img
+                src={facebookLogo}
+                alt="facebook"
+                className="w-4 mx-3 my-1"
+              />
+              <img src={twitterLogo} alt="twitter" className="w-4 mx-3 my-1" />
+              <img
+                src={linkedinLogo}
+                alt="linkedin"
+                className="w-4 mx-3 my-1"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="w-full md:p-10">
+          <h1 className="font-nunito font-extrabold md:mx-14 text-3xl text-txtGreen">
+            Education
+          </h1>
+        </div>
+        <div className="flex flex-wrap md:p-10 justify-center">
+          <div className="mb-10">
+            <img src={team1} alt="team" className="w-56 m-5 " />
+            <h1 className="font-nunito text-md font-bold text-center text-txtGreen">
+              Savitri Gupta
+            </h1>
+            <div className="flex flex-around justify-center pt-3">
+              <img
+                src={facebookLogo}
+                alt="facebook"
+                className="w-4 mx-3 my-1"
+              />
+              <img src={twitterLogo} alt="twitter" className="w-4 mx-3 my-1" />
+              <img
+                src={linkedinLogo}
+                alt="linkedin"
+                className="w-4 mx-3 my-1"
+              />
+            </div>
+          </div>
+          <div className="mb-10">
+            <img src={team1} alt="team" className="w-56 m-5 " />
+            <h1 className="font-nunito text-md font-bold text-center text-txtGreen">
+              Garg Trivedi
+            </h1>
+            <div className="flex flex-around justify-center pt-3">
+              <img
+                src={facebookLogo}
+                alt="facebook"
+                className="w-4 mx-3 my-1"
+              />
+              <img src={twitterLogo} alt="twitter" className="w-4 mx-3 my-1" />
+              <img
+                src={linkedinLogo}
+                alt="linkedin"
+                className="w-4 mx-3 my-1"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="w-full md:p-10">
+          <h1 className="font-nunito font-extrabold md:mx-14 text-3xl text-txtGreen">
+            Medical
+          </h1>
+        </div>
+        <div className="flex flex-wrap md:p-10 justify-center">
+          <div className="mb-10">
+            <img src={team1} alt="team" className="w-56 m-5 " />
+            <h1 className="font-nunito text-md font-bold text-center text-txtGreen">
+              Akshayata Gupta
+            </h1>
+            <div className="flex flex-around justify-center pt-3">
+              <img
+                src={facebookLogo}
+                alt="facebook"
+                className="w-4 mx-3 my-1"
+              />
+              <img src={twitterLogo} alt="twitter" className="w-4 mx-3 my-1" />
+              <img
+                src={linkedinLogo}
+                alt="linkedin"
+                className="w-4 mx-3 my-1"
+              />
+            </div>
+          </div>
+          <div className="mb-10">
+            <img src={team1} alt="team" className="w-56 m-5 " />
+            <h1 className="font-nunito text-md font-bold text-center text-txtGreen">
+              Manan Sharma
+            </h1>
+            <div className="flex flex-around justify-center pt-3">
+              <img
+                src={facebookLogo}
+                alt="facebook"
+                className="w-4 mx-3 my-1"
+              />
+              <img src={twitterLogo} alt="twitter" className="w-4 mx-3 my-1" />
+              <img
+                src={linkedinLogo}
+                alt="linkedin"
+                className="w-4 mx-3 my-1"
+              />
+            </div>
+          </div>
+          <div className="mb-10">
+            <img src={team1} alt="team" className="w-56 m-5 " />
+            <h1 className="font-nunito text-md font-bold text-center text-txtGreen">
+              Deeksha Bhardwaj
+            </h1>
+            <div className="flex flex-around justify-center pt-3">
               <img
                 src={facebookLogo}
                 alt="facebook"
