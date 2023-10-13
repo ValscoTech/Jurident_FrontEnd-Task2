@@ -22,7 +22,7 @@ const Donate = () => {
             type="button"
             className="my-5 focus:outline-none w-32 text-bgGray bg-[#096A56] font-medium rounded-md text-sm px-5 py-2.5 mr-2 mb-5 "
           >
-            Donate Now
+            <a href="https://donate.stripe.com/test_aEUbJ371FbscarueUU">Donate Now</a>
           </button>
         </div>
         <div className="w-full md:w-2/5 md:px-10">
@@ -106,7 +106,7 @@ const Donate = () => {
               type="button"
               className="focus:outline-none bg-bgGray text-[#096A56] font-medium rounded-md text-sm px-5 py-2.5 mr-2 mb-2 "
             >
-              Donate
+              <a href="https://donate.stripe.com/test_aEUbJ371FbscarueUU">Donate</a>
             </button>
           </div>
         </div>
