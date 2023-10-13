@@ -1,6 +1,5 @@
 import bgimg from "../assets/bgimg.jpg"; // Import the image
 import BG from "../assets/BG.png";
-import playIcon from "../assets/play-icon.svg";
 import "./home.css";
 import "./WhatWeDo.css";
 import logo from "../assets/Logo.svg";
