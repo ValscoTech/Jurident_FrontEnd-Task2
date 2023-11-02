@@ -12,7 +12,7 @@ import icon from "../assets/Icon.svg";
 import icon1 from "../assets/Icon1.svg";
 import icon2 from "../assets/Icon2.svg";
 import icon3 from "../assets/Icon3.svg";
-import servicesImg from "../assets/services-img.png";
+import servicesImg from "../assets/Services-img.png";
 import arrow from "../assets/arrow.png";
 import { Link } from "react-router-dom";
 import Chart from "./Chart";
