@@ -12,6 +12,7 @@ import Donate from './components/Donate'
 import WhatWeDo from './components/WhatWeDo'
 import ScrollToTop from './components/ScrollToTop'
 import Home from './components/Home'
+import JoinAsVol from './components/JoinAsVol'
 
 function App() {
 
@@ -28,6 +29,8 @@ function App() {
         <Route path='/media' exact element={<Media/>}/>
         <Route path='/donate' exact element={<Donate/>}/>
         <Route path='/whatwedo' exact element={<WhatWeDo/>}/>
+        <Route path='/joinasvol' exact element={<JoinAsVol/>}/>
+
       </Routes>
       <Footer/>
     </>
